@@ -1,4 +1,4 @@
-package ro.alexmamo.firestorecleanarchitecture.presentation
+package ro.alexmamo.template.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

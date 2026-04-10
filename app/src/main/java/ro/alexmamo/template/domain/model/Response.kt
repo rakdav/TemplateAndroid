@@ -1,4 +1,4 @@
-package ro.alexmamo.firestorecleanarchitecture.domain.model
+package ro.alexmamo.template.domain.model
 
 sealed class Response<out T> {
     data object Idle : Response<Nothing>()

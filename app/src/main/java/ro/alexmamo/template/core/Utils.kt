@@ -1,4 +1,4 @@
-package ro.alexmamo.firestorecleanarchitecture.core
+package ro.alexmamo.template.core
 
 import android.content.Context
 import android.util.Log

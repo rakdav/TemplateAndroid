@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "ro.alexmamo.firestorecleanarchitecture"
+    namespace = "ro.alexmamo.template"
     compileSdk = 35
 
     defaultConfig {

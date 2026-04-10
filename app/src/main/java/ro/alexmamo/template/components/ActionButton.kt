@@ -1,4 +1,4 @@
-package ro.alexmamo.firestorecleanarchitecture.components
+package ro.alexmamo.template.components
 
 import androidx.compose.material.Button
 import androidx.compose.material.Text
