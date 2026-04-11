@@ -53,7 +53,6 @@ dependencies {
     //Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    annotationProcessor(libs.androidx.room.room.compiler)
     ksp(libs.androidx.room.room.compiler)
     //Serialization
     implementation(libs.serialization)
@@ -61,4 +60,12 @@ dependencies {
     implementation(libs.navigation.compose)
     //Hilt Navigation Compose
     implementation(libs.hilt.navigation.compose)
+    //Tests
+    androidTestImplementation(libs.navigation.testing)
+    androidTestImplementation(libs.hilt.android.testing)
+    androidTestImplementation(libs.runner)
+    androidTestImplementation(libs.ui.test.junit4)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.truth)
+    debugImplementation(libs.ui.test.manifest)
 }
